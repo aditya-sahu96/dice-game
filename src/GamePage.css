@@ -1,0 +1,94 @@
+.header {
+width: 1280px;
+height: 151px;
+display: flex;
+justify-content: space-between;
+font-family: "Poppins", sans-serif; 
+margin: 30px auto;
+}
+
+.scoreCard {
+/* width: 135px; */
+/* height: 151px; */
+/* background-color: aqua; */
+padding: 0;
+display: flex;
+flex-direction: column;
+}
+
+.scoreCard p {
+    font-weight: 500;
+    /* background-color: bisque; */
+    font-size: 100px;
+    padding: 0;
+    align-self: center;
+}
+
+.scoreCard h1 {
+    font-size: 24px;
+}
+
+.numberContainer {
+    display: flex;
+    flex-direction: column;
+    font-family:  "Poppins", sans-serif;
+    justify-content: space-between;
+}
+
+.numberCards button {
+    height: 72px;
+    width: 72px;
+    margin: 0px 10px 0px 10px;
+    font-size: 24px;
+    /* background-color: white;
+    border: 2px solid black; */
+}
+
+.numberContainer p{
+    align-self: flex-end;
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+    margin: 0px 10px 20px 0px;
+}
+
+.mainInterface {
+    width: 250px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif; 
+}
+
+.mainInterface h1{
+    font-size: 24px;
+    margin: 10px 0px 10px 0px;
+}
+
+.dice {
+    width: 250px;
+    height: 250px;
+    background-image: url("public/imges/dice1.png");
+    border: none;
+    background-size: cover;
+}
+
+.reset {
+    flex-shrink: 100%;
+    height: 44px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 16px;
+    margin: 10px 0px 10px 0px;
+}
+
+.rules {
+    flex-shrink: 100%;
+    height: 44px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 16px;
+    margin: 10px 0px 10px 0px;
+}
